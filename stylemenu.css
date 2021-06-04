@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;}
+ul{
+	width: 800px;
+	height: 100px;
+	background: #272882;
+	position: fixed;
+	top: 0;
+}
+li{
+	float: left;
+	line-height: 100px;
+	list-style: none;/*bỏ dâu chấm*/
+	margin-left: 20px;
+	padding: 0 10px;
+}
+a{
+	color: white;
+	text-decoration: none;/*bỏ gạch chân của link*/
+	font-family: arial;
+}
+a:hover{
+	color: red;
+	text-decoration-line: underline;
+}/*làm cho nó thay đổi khi rê chuột qua chữ*/
+/*có thể lên goodle search font, bấm vào dấu cộng, select link và nhúng vào css cho những font ngoài*/
+li:hover{
+	background: yellow;
+
+}/*làm cho nó thay đổi khi rê chuột qua ô*/
